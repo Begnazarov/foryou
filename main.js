@@ -4,7 +4,13 @@ switch(num){
   case "Да":
     alert("Вы правы");
     break;
+  case "да":
+    alert("Вы правы");
+    break;
   case "Нет":
+    alert("Попробуйте еще раз, используя другой вариант");
+    break;
+  case "нет":
     alert("Попробуйте еще раз, используя другой вариант");
     break;
   default:
